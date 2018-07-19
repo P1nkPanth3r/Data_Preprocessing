@@ -131,7 +131,7 @@ def factor_development(datasets):
 
 # MAIN PROGRAM
 if __name__=='__main__':
-    cwd = r'E:\kaggle_data\Competitions\Recruit_Restaurant_Visitor_Forecasting\data_raw'
+    cwd = r'..\kaggle_data\Competitions\Recruit_Restaurant_Visitor_Forecasting\data_raw'
     filenames = ['air_reserve.csv','air_store_info.csv','air_visit_data.csv','date_info.csv',
                  'hpg_reserve.csv','hpg_store_info.csv','sample_submission.csv','store_id_relation.csv']
     datasets = data_import(cwd,filenames)
